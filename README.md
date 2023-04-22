@@ -31,19 +31,18 @@ As others projects, you will need some requirements to run:
 #### Requirements
 
 - [Node.js](https://nodejs.org/) (latest)
-- [Expo](https://expo.io/) (latest)
+- [React native](https://reactnative.dev/docs/environment-setup) (latest)
 - [Yarn](https://yarnpkg.com/) (latest)
 
 #### How to run
 
-- `git clone git@github.com:murillo94/cine-the-guide-movie.git`
+- `git clone git@github.com:Tarkeshwar108/covid19-App.git`
 - `yarn install`
 
 Now, you can choose a command to run the project:
 
 - `yarn ios` to run on iOS simulator
 - `yarn android` to run on Android simulator
-- `yarn web` to run on web browser
 <!-- 
 ## Usage
 - [Setting up React Native for Android](https://facebook.github.io/react-native/docs/android-setup.html#content)
