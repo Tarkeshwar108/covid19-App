@@ -6,7 +6,7 @@
 <img src="https://i.imgur.com/OqXTFuE.png" width="300" height="600">
 </h2>
 
-## iOS App Preview
+## Android App Preview
 <h2>
 <img src="https://i.imgur.com/50l4AuM.jpg" width="300" height="600">
 <img src="https://i.imgur.com/m7pqsYv.jpg" width="300" height="600">
