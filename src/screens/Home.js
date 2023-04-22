@@ -6,6 +6,7 @@ import {
   Image,
   Button,
   ImageBackground,
+  SafeAreaView,
 } from 'react-native';
 import Icon from 'react-native-vector-icons/dist/Ionicons';
 import {ScrollView} from 'react-native-gesture-handler';
@@ -69,32 +70,34 @@ export default class Home extends Component {
         <ImageBackground
           source={require('../images/unnamed.jpg')}
           style={styles.map}>
-          <View style={styles.col}>
-            <View style={{width: '50%'}}>
-              <Icon name="md-remove" color="#FFF" size={26} />
-              <Icon
-                name="md-remove"
-                color="#FFF"
-                size={26}
-                style={styles.minusIcon}
-              />
+          <SafeAreaView style={{flex: 1}}>
+            <View style={styles.col}>
+              <View style={{width: '50%'}}>
+                <Icon name="md-remove" color="#FFF" size={26} />
+                <Icon
+                  name="md-remove"
+                  color="#FFF"
+                  size={26}
+                  style={styles.minusIcon}
+                />
+              </View>
+              <View style={styles.avatarContainer}>
+                <Image
+                  source={require('../images/1.jpeg')}
+                  style={styles.avatar}
+                />
+              </View>
             </View>
-            <View style={styles.avatarContainer}>
-              <Image
-                source={require('../images/1.jpeg')}
-                style={styles.avatar}
-              />
-            </View>
-          </View>
-          <Text style={styles.textDash}>CORONA DASH</Text>
+            <Text style={styles.textDash}>CORONA DASH</Text>
 
-          <View style={styles.colContainer}>
-            <Text style={styles.textGlobal}>GLOBAL</Text>
-            <Text style={styles.textRussia}>RUSSIA</Text>
-            <View style={styles.reloadContainer}>
-              <Icon name="md-refresh" size={24} color="red" />
+            <View style={styles.colContainer}>
+              <Text style={styles.textGlobal}>GLOBAL</Text>
+              <Text style={styles.textRussia}>RUSSIA</Text>
+              <View style={styles.reloadContainer}>
+                <Icon name="md-refresh" size={24} color="red" />
+              </View>
             </View>
-          </View>
+          </SafeAreaView>
         </ImageBackground>
         <ScrollView>
           <Deck
