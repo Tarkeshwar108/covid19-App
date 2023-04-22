@@ -1,9 +1,8 @@
 # Covid19 - A react native app 
 
 ## iOS App Preview
-![iOS Preview Gif 1](https://i.imgur.com/aj0X3Go.png")
-![iOS Preview Gif 2](https://i.imgur.com/OqXTFuE.png")
-![iOS Preview Gif 3](http://imgur.com/KuySKlC.gif "iOS Preview Gif 3")
+<img src="https://i.imgur.com/aj0X3Go.png" width="50">
+<img src="https://i.imgur.com/OqXTFuE.png" width="50">
 
 <!-- ## Android App Preview
 ![Android Preview Gif 1](http://i.imgur.com/88ZW3Ls.gif "Android Preview Gif 1")
