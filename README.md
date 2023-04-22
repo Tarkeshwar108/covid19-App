@@ -24,8 +24,26 @@
 - Comment & Sub Comments
 - WebView to view source pages
  -->
-## Installation
-Once you have downloaded or cloned this repository, run `npm install` inside the directory.
+## Running locally
+
+As others projects, you will need some requirements to run:
+
+#### Requirements
+
+- [Node.js](https://nodejs.org/) (latest)
+- [Expo](https://expo.io/) (latest)
+- [Yarn](https://yarnpkg.com/) (latest)
+
+#### How to run
+
+- `git clone git@github.com:murillo94/cine-the-guide-movie.git`
+- `yarn install`
+
+Now, you can choose a command to run the project:
+
+- `yarn ios` to run on iOS simulator
+- `yarn android` to run on Android simulator
+- `yarn web` to run on web browser
 <!-- 
 ## Usage
 - [Setting up React Native for Android](https://facebook.github.io/react-native/docs/android-setup.html#content)
