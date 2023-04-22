@@ -2,8 +2,8 @@
 
 ## iOS App Preview
 <h2>
-<img src="https://i.imgur.com/aj0X3Go.png" width="400" height="600">
-<img src="https://i.imgur.com/OqXTFuE.png" width="400" height="600">
+<img src="https://i.imgur.com/aj0X3Go.png" width="300" height="600">
+<img src="https://i.imgur.com/OqXTFuE.png" width="300" height="600">
 </h2>
 <!-- ## Android App Preview
 ![Android Preview Gif 1](http://i.imgur.com/88ZW3Ls.gif "Android Preview Gif 1")
